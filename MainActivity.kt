@@ -207,7 +207,7 @@ fun NewsCardVertical(title: String) {
         modifier = Modifier
             .clip(RoundedCornerShape(20.dp))
             .background(CardGray)
-            .aspectRatio(0.80f) // más alto para evitar huecos
+            .aspectRatio(0.80f)
     ) {
         Box(
             modifier = Modifier

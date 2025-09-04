@@ -200,7 +200,7 @@ fun NewsCardHorizontal(title: String, date: String) {
     }
 }
 
-//Tarjetas verticales (gris, sin imagen)
+//Tarjetas verticales
 @Composable
 fun NewsCardVertical(title: String) {
     Box(

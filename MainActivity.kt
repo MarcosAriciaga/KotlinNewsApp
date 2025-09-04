@@ -55,7 +55,7 @@ fun NewsScreen() {
 
         Spacer(Modifier.height(12.dp))
 
-        // Barra de búsqueda con lupa
+        // Barra de búsqueda
         OutlinedTextField(
             value = search,
             onValueChange = { search = it },
@@ -116,7 +116,6 @@ fun NewsScreen() {
 
         // Contenido para Noticias
         if (selectedTab == 0) {
-            // "Ultimas noticias"
             Text(
                 "Ultimas noticias",
                 fontSize = 22.sp,
@@ -176,7 +175,7 @@ fun NewsScreen() {
     }
 }
 
-// 🔹 Tarjetas horizontales moradas
+//Tarjetas horizontales moradas
 @Composable
 fun NewsCardHorizontal(title: String, date: String) {
     Box(
@@ -201,7 +200,7 @@ fun NewsCardHorizontal(title: String, date: String) {
     }
 }
 
-// 🔹 Tarjetas verticales (gris, sin imagen)
+//Tarjetas verticales (gris, sin imagen)
 @Composable
 fun NewsCardVertical(title: String) {
     Box(
